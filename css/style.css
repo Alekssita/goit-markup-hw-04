@@ -109,7 +109,7 @@ body {
 .logo-wrap {
 	color: var(--logo-wrap-color);
 }
-.link-nav:hot(:last-child) {
+.link-nav:not(:last-child) {
 	margin-right: 50px;
 }
 .link-nav {
@@ -201,16 +201,15 @@ ul {
 	justify-content: center;
 	gap: 10px;
 }
-.soc-item {
 
-}
 .soc-link {
 	width: 44px;
 	height: 44px;
 	display: block;
-	border-radius: 50%;
-	background-color: var(--main-light);
-}
+	border-radius: 50%;	
+	align-items: center;
+	justify-content: center;
+	}	
 
 
 /*умови*/
@@ -295,6 +294,7 @@ ul {
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
+	margin-bottom: 16px;
 	color: var(--main-color-font);
 }
 .item-content {
