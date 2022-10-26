@@ -205,20 +205,23 @@ ul {
 .net-link {
 	width: 44px;
 	height: 44px;
-	display: block;
-	border-radius: 50%;	
+	display: flex;
 	align-items: center;
 	justify-content: center;
+	border-radius: 50%;	
 	}	
-.net-ikon {
-	fill: var(--main-light);
+
+.net-icon {
+	fill: var(--main-font);
 }
 .net-link:hover {
-background-color: var(--secondary-color);
+	background-color: var(--secondary-color);
 }
-.net-link:hover .net-ikon {
-fill: var(--main-light);
-}
+
+.net-link:hover .net-icon{
+	fill: var(--cecondary-color);
+	}
+
 
 /*умови*/
 .benefits-title {
@@ -266,11 +269,13 @@ fill: var(--main-light);
 	font-size: 36px;
 	line-height: 1.43;
 	color: var(--main-dark);  
-   }
+}
+
  .section-team {
 	background-color:var(--btn-inactive);
 	padding: 94px 0;
  }
+
 .team-list .item {
 	max-width: 270px;
 	background: var(--main-light);
@@ -296,7 +301,7 @@ fill: var(--main-light);
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--main-dark);
-  }
+}
 .team-list-name-profession {
 	font-size: 16px;
 	line-height: 1.19;
@@ -327,7 +332,7 @@ fill: var(--main-light);
 .section-clients {
 	background-color:var(--btn-inactive);
 	padding: 94px 0;
- }
+}
 
  .clients-list {
 	display: flex;
@@ -337,7 +342,7 @@ fill: var(--main-light);
  .clients-item {
 	width: calc((100%-150px)/6);
 
- }
+}
 
  .clients-link {
 	width: 100%;
@@ -347,13 +352,16 @@ fill: var(--main-light);
 	align-items: center;
 	justify-content: center;
 	border-radius: 5px;
+	color: var(--border-clients);
  }
-
-
-
-                      /*список товарів*/
-
-
+.clients-icon {
+	fill: currentColor;
+}
+.clients-link:hover {
+	border-color: var(--secondary-color);
+	color: var(--cecondary-color);
+}
+                      /*список товарів*/			  
 .goods-list{
 	display: flex;
 	flex-wrap: wrap;
