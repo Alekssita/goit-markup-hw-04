@@ -220,11 +220,27 @@ body {
 }
 .benefits-list-item {
 	flex-wrap: wrap;
+	width: calc((100%-90px) / 4);
 }
 
 .benefits-list-title-description {
 	line-height: 1.71;
 	color: var(--main-color-font);
+}
+.benefits-list-item-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 120px;
+	border: 1px solid var(--main-icons);
+	background: var(--btn-inactive);
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+.benefits-list-item-link-icon {
+	width: 70px;
+	height: 70px;
 }
 
 /*Наша команда*/
@@ -308,7 +324,6 @@ body {
 }
 
 .clients-link {
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
