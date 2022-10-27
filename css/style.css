@@ -132,6 +132,20 @@ body {
 	color: var(--secondary-color);
 	text-decoration: none;
 }
+.link-nav-icon:hover {
+	fill: var(--secondary-color);
+}
+
+.link-nav-icon {
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 16px;
+	height: 12px;
+	fill: var(--main-icons);
+	background-color: var(--main-light);
+	margin-right: 10px;
+	}
 
 /*рішення для вашого бізнесу */
 .section-hero {
@@ -419,6 +433,7 @@ footer {
 	flex-wrap: wrap;
 	list-style: none;
 }
+
 .list-contact-item:not(:last-child) {
 	margin-bottom: 9px;
 }
@@ -446,15 +461,11 @@ ul {
 	fill: var(--main-light);
 	background-color: var(--secondary-color);
 	}
+.socials-icon:hover {
+	fill:var(--main-light)
+}
 
 .link-nav-icon {
 	display: flex;
 	justify-content: center;
 }
-
-.link-nav-icon:hover {
-	fill: var(--secondary-color);
-
-}
-
-
