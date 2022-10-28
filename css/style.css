@@ -461,6 +461,7 @@ footer {
 	justify-content: center;
 	flex-wrap: wrap;
 	list-style: none;
+	margin-right: 70px;
 }
 
 .list-contact-item:not(:last-child) {
@@ -517,7 +518,7 @@ ul {
 	fill: var(--main-light);
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
-}
+	}
 .socials-link-footer:hover {
 	fill: var(--main-light);
 	background-color: var(--secondary-color);
@@ -527,13 +528,17 @@ ul {
 }
 
 .socials-contacts {
-	display: block;
-	max-width: 206px;
-	height: 80px;
 	justify-content: center;
 	flex-wrap: wrap;
 	list-style: none;
-}
+	max-width: 206px;
+	height: 80px;
+		}
+.socials {
+	display: flex;
+
+	}
+
 .socials-contacts-naim  {
 font-style: normal;
 font-weight: 700;
@@ -542,6 +547,6 @@ line-height: 1.14;
 text-transform: uppercase;
 color: var(--main-light);
 padding-bottom: 20px;
-margin-top: 75px;
+
 }
 
